@@ -24,10 +24,17 @@ NOTICE: the x in instructions is the version of ncurses that you download.
 ### Library Usage
 clone this library
 
-	cd Seeed_mgc3130
+	cd Seeed_mgc3x30
 	make clean && make
 	./mgc3130
 And then, you can see a terminal graph and test the 3D touch board.
+
+### Function Support
+The library support functions blow:
+* x,y,z axis position detection.
+* gesture: four types,left,right,up,down
+* airwheel
+* Touch,tap,double tap. 
 
 
 ***

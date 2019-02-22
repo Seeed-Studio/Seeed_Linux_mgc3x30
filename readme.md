@@ -1,5 +1,5 @@
 # Seeed_mgc3130
-Microchip’s MGC3X30 are 3D gesture recognition and motion tracking controller chips based on Microchip’s patented GestIC technology.They enable usercommand input with natural hand and finger movements.
+Microchip’s MGC3X30 are 3D gesture recognition and motion tracking controller chips based on Microchip’s patented GestIC technology.They enable user command input with natural hand and finger movements.
 
 *** 
 ## Usage

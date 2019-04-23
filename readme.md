@@ -1,11 +1,14 @@
 # Seeed_mgc3130
-Microchip’s MGC3X30 are 3D gesture recognition and motion tracking controller chips based on Microchip’s patented GestIC technology.They enable user command input with natural hand and finger movements.
+Microchip’s MGC3X30 are 3D gesture recognition and motion tracking controller chips based on Microchip’s patented GestIC technology.They enable user command input with natural hand and finger movements.  
 
 *** 
 ## Usage
 ### Install ncurses
-download from [here](https://invisible-mirror.net/archives/ncurses/)  
+download from [here](https://invisible-mirror.net/archives/ncurses/) 
+ 
 Recommended  ncurses-6.1.tar.gz
+
+![](https://user-images.githubusercontent.com/30164980/56554353-fc740200-65c3-11e9-8e0a-272f194450ff.png)
 
 ### Install instructions
 
@@ -14,20 +17,18 @@ Recommended  ncurses-6.1.tar.gz
 	./configure
 	make
 	sudo make install
-*** NOTICE: the x.x in instructions is the version of ncurses that you download. 6.1 if ncurses-6.1.tar.gz***
+***NOTICE: the x.x in instructions is the version of ncurses that you download. 6.1 if ncurses-6.1.tar.gz***
 
 Check whether the ncurse installation finished:
 
 	ncursesx-config --version
 
-*** NOTICE: the x in instructions is the version of ncurses that you download.6 if ncurses-6.1.tar.gz ***
+***NOTICE: the x in instructions is the version of ncurses that you download.6 if ncurses-6.1.tar.gz***
 
 ***
 
 ### install wiringPi
-	git clone git://git.drogon.net/wiringPi
-	cd wiringPi
-	git pull origin
+	git clone https://github.com/WiringPi/WiringPi.git
 	cd wiringPi
 	./build
 

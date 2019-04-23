@@ -109,25 +109,12 @@ int main(void)
         return -1;
     }
 
-    // approach_detection_select(ENABLE);
-    // if(gestrue_select(ENABLE_ONLY_FLICK_GESTURE)){
-    //     printf("Select gesture function failed!\n");
-    //     mgc_exit();
-    //     return -1;
-    // }
 
     if(set_lock_mask()){
         printf("Set lock mask failed!\n");
         mgc_exit();
         return -1;
     }
-
-    if(output_enable_mask_select(ENABLE)){
-        printf("Select calibration failed!\n");
-        mgc_exit();
-        return -1;
-    }
-
     mgc3030_init();
 
     while(1){

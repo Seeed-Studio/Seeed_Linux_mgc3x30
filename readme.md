@@ -42,7 +42,7 @@ clone this library
 And then, you can see a terminal graph and test the 3D touch board.
 
 ### Function Support
-The library support functions blow:
+The library support functions below:
 * x,y,z axis position detection.
 * gesture: four types,left,right,up,down
 * airwheel
